@@ -1,0 +1,14 @@
+{
+  "name": "labeler-cli",
+  "version": "1.0.0",
+  "description": "Command-line interface for the labeling component of T.EX, which uses the labeler-core.",
+  "main": "label.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0"
+  }
+}
