@@ -1,4 +1,3 @@
-
 import Blocklists from './blocklists.js';
 import { program } from 'commander';
 import fs from 'fs';
