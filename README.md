@@ -1,5 +1,23 @@
-# labeler-cli
-A command-line interface to use the labeler of T.EX without the browser extension.
+# T.EX Labeler CLI
+A command-line interface to use the labeler of T.EX without the browser extension. This tool integrates the module [t-ex-tools/labeler-core](https://github.com/t-ex-tools/labeler-core).
+
+# Installation
+
+Clone the repository and install the dependencies:
+
+```
+npm install
+```
+
+# Examples
+
+```
+node ./label.js json example/input.json -o example/output.json
+```
+
+```
+node ./label.js json example/input.json -b EasyList EasyPrivacy Disconnect.me -o example/output.json
+```
 
 # Manual
 
@@ -29,14 +47,4 @@ Options:
   -b, --blocklists <items...>  blocklists to use { "EasyList" | "EasyPrivacy" | "Disconnect.me" } (default: ["EasyPrivacy"])
   -o, --output <file>          name of the output file created in current working directory (default: "output.json")
   -h, --help                   display help for command
-```
-
-# Examples
-
-```
-node ./label.js json example/input.json -o example/output.json
-```
-
-```
-node ./label.js json example/input.json -b EasyList EasyPrivacy Disconnect.me -o example/output.json
 ```
