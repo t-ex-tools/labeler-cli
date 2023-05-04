@@ -2,9 +2,9 @@
   "name": "labeler-cli",
   "version": "1.0.0",
   "description": "Command-line interface for the labeling component of T.EX, which uses the labeler-core.",
-  "main": "label.js",
+  "main": "index.js",
   "bin": {
-    "label": "label.js"
+    "label": "index.js"
   },
   "type": "module",
   "scripts": {
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^9.0.0",
-    "node-fetch": "^3.2.0"
+    "node-fetch": "^3.2.0",
+    "JSONStream": "^1.3.5"
   }
 }
