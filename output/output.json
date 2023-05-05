@@ -127,9 +127,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -273,9 +285,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -419,9 +443,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://lambdaschool.com",
     "method": "POST",
@@ -602,9 +638,21 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -744,9 +792,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://launchgiftcards.com",
     "method": "GET",
@@ -898,9 +958,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://launchgiftcards.com",
     "method": "GET",
@@ -1028,9 +1100,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://launchgiftcards.com",
     "method": "GET",
@@ -1178,9 +1262,24 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "gstatic.com",
+        "type": [
+          "Content"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://launchgiftcards.com",
     "method": "GET",
@@ -1336,9 +1435,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.bark.us",
     "method": "GET",
@@ -1446,9 +1557,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.bark.us",
     "method": "GET",
@@ -1560,9 +1683,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://launchgiftcards.com",
     "method": "GET",
@@ -1754,9 +1889,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://launchgiftcards.com",
     "method": "GET",
@@ -1884,9 +2031,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.tccd.edu",
     "method": "GET",
@@ -2014,9 +2173,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -2164,9 +2335,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -2314,9 +2497,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -2464,9 +2659,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -2614,9 +2821,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.bark.us",
     "method": "GET",
@@ -2728,9 +2947,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.tccd.edu",
     "method": "GET",
@@ -2858,9 +3089,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -3004,9 +3247,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.bark.us",
     "method": "POST",
@@ -3179,9 +3434,24 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "amplitude.com",
+        "type": [
+          "Analytics"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -3325,9 +3595,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.tccd.edu",
     "method": "GET",
@@ -3459,9 +3741,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.tccd.edu",
     "method": "GET",
@@ -3585,9 +3879,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.tccd.edu",
     "method": "GET",
@@ -3711,9 +4017,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.tccd.edu",
     "method": "GET",
@@ -3845,9 +4163,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.tccd.edu",
     "method": "GET",
@@ -3979,9 +4309,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -4125,9 +4467,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -4271,9 +4625,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.bark.us",
     "method": "POST",
@@ -4446,9 +4812,24 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "amplitude.com",
+        "type": [
+          "Analytics"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://openviewpartners.com",
     "method": "GET",
@@ -4638,9 +5019,24 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "hubspot.com",
+        "type": [
+          "Analytics"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -4784,9 +5180,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -4930,9 +5338,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -5076,9 +5496,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -5222,9 +5654,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -5368,9 +5812,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -5514,9 +5970,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -5702,9 +6170,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -5848,9 +6328,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -5994,9 +6486,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -6140,9 +6644,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -6286,9 +6802,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -6432,9 +6960,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -6578,9 +7118,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 52358,
     "initiator": "https://m.stripe.network",
     "method": "POST",
@@ -6723,9 +7275,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -6869,9 +7433,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -7015,9 +7591,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -7161,9 +7749,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -7307,9 +7907,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -7453,9 +8065,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -7599,9 +8223,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -7745,9 +8381,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -7891,9 +8539,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "method": "GET",
     "parentFrameId": -1,
@@ -8039,9 +8699,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -8219,9 +8891,21 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -8365,9 +9049,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -8511,9 +9207,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -8637,9 +9345,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -8829,9 +9549,24 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "crazyegg.com",
+        "type": [
+          "Analytics"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -9025,9 +9760,24 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "crazyegg.com",
+        "type": [
+          "Analytics"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -9213,9 +9963,21 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.evergy.com",
     "method": "GET",
@@ -9339,9 +10101,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -9485,9 +10259,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -9611,9 +10397,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -9757,9 +10555,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.evergy.com",
     "method": "GET",
@@ -9929,9 +10739,21 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -10071,9 +10893,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -10217,9 +11051,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -10367,9 +11213,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -10513,9 +11371,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -10659,9 +11529,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -10805,9 +11687,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -10955,9 +11849,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -11097,9 +12003,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -11239,9 +12157,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -11385,9 +12315,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -11531,9 +12473,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -11727,9 +12681,26 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "demdex.net",
+        "type": [
+          "Email",
+          "Advertising",
+          "FingerprintingGeneral"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://openviewpartners.com",
     "method": "GET",
@@ -11889,9 +12860,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 52387,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -12081,9 +13064,26 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "demdex.net",
+        "type": [
+          "Email",
+          "Advertising",
+          "FingerprintingGeneral"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -12231,9 +13231,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -12381,9 +13393,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -12495,9 +13519,24 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "salesforceliveagent.com",
+        "type": [
+          "Analytics"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -12637,9 +13676,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -12787,9 +13838,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -12929,9 +13992,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -13075,9 +14150,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.nine.com.au",
     "method": "GET",
@@ -13229,9 +14316,24 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "outbrain.com",
+        "type": [
+          "Advertising"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -13379,9 +14481,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.nine.com.au",
     "method": "GET",
@@ -13525,9 +14639,24 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "outbrain.com",
+        "type": [
+          "Advertising"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -13671,9 +14800,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.nine.com.au",
     "method": "GET",
@@ -13817,9 +14958,24 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "outbrain.com",
+        "type": [
+          "Advertising"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 52389,
     "initiator": "https://www.nine.com.au",
     "method": "GET",
@@ -14017,9 +15173,24 @@
           ]
         ],
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "outbrain.com",
+        "type": [
+          "Advertising"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.nine.com.au",
     "method": "GET",
@@ -14167,9 +15338,24 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": true,
+        "rule": "outbrain.com",
+        "type": [
+          "Advertising"
+        ],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -14321,9 +15507,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -14471,9 +15669,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -14617,9 +15827,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.eosworldwide.com",
     "method": "GET",
@@ -14767,9 +15989,21 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
-  }{
+  },
+  {
     "frameId": 0,
     "initiator": "https://www.digicert.com",
     "method": "GET",
@@ -14913,6 +16147,17 @@
       {
         "isLabeled": false,
         "blocklist": "EasyPrivacy"
+      },
+      {
+        "isLabeled": false,
+        "type": [],
+        "blocklist": "Disconnect.me"
+      },
+      {
+        "isLabeled": false,
+        "rule": null,
+        "type": "hostname",
+        "blocklist": "StevenBlack/hosts"
       }
     ]
   }

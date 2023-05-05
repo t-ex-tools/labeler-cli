@@ -72,8 +72,8 @@ export default {
 
             if (!isFirst) {
               writeStream.write(', ');
-              isFirst = false;
             }
+            isFirst = false;
             
             writeStream.write(JSON.stringify(r));
           }
