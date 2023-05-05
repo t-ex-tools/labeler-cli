@@ -10,7 +10,6 @@ program
 program.command('json')
   .description('Label an exported JSON file consisting of HTTP requests.')
   .argument('<dir>', 'path to JSON files')
-  .option('-b, --blocklists <items...>', 'blocklists to use { "EasyList" | "EasyPrivacy" | "Disconnect.me" }', ['EasyPrivacy'])
   .option('-o, --output <file>', 'name of the output file created in current working directory', 'output.json')
   .option('-s, --silent', 'disable progress indicator printing on console')
   .action((dir, options) => Controller.label(dir, options));
