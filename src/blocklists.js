@@ -1,4 +1,4 @@
-import pkg from '../labeler-core/dist/labeler-core.module.js';
+import pkg from '../labeler-core/dist/labeler-core.node.js';
 const { 
   AdBlockParser, 
   AdBlockEvaluator,
@@ -8,7 +8,7 @@ const {
   HostsEvaluator
 } = pkg.Labeler;
 
-export default [{
+export default [/*{
   name: "EasyList",
   url: "https://easylist.to/easylist/easylist.txt",
   evaluator: AdBlockEvaluator(AdBlockParser)
@@ -24,4 +24,12 @@ export default [{
   name: "StevenBlack/hosts",
   url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
   evaluator: HostsEvaluator(HostsParser)
+}*/{
+  name: "EasyList (2022-09-18)",
+  url: "file:///home/philip/Arbeit/PhD/Data/Website\ Lists/easylist-2022-09-18.txt",
+  evaluator: AdBlockEvaluator(AdBlockParser)
+}, {
+  name: "EasyPrivacy (2022-09-18)",
+  url: "file:///home/philip/Arbeit/PhD/Data/Website\ Lists/easyprivacy-2022-09-18.txt",
+  evaluator: AdBlockEvaluator(AdBlockParser)
 }];

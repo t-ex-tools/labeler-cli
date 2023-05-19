@@ -7,7 +7,7 @@ import JSONStream from 'JSONStream';
 import Util from './Util.js';
 import Blocklists from './blocklists.js';
 
-import pkg from '../labeler-core/dist/labeler-core.module.js';
+import pkg from '../labeler-core/dist/labeler-core.node.js';
 const { BlockList } = pkg.Labeler;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -33,60 +33,71 @@ export default {
       process.exit(1);
     }
 
-    // TODO: this is the shit
     let lists = Blocklists.map((e) => new BlockList(e.name, e.url, e.evaluator));
     Promise
       .allSettled(lists.map((l) => l.init()))
-      .then(() => this.process(path, files, options, lists));    
+      .then((results) => {
+        let hadError = results
+          .map((r) => r.status === 'rejected')
+          .reduce((acc, val) => acc || val, false)
+
+        if (hadError) {
+          console.error('Error while retrieving blocklists');
+          let errorous = results.filter((r) => r.status === 'rejected');
+          errorous.forEach((e) => console.error(e.reason));
+        } else {
+          this.process(path, files, options, lists)
+        }
+      });    
   },
 
   process: function(path, files, options, lists) {
 
-    let output = options.output;
-    const writeStream = fs.createWriteStream(output);
-    writeStream.write('[');
+    let streams = files.map((file) => fs.createReadStream(path + file));
+    streams.push(fs.createWriteStream(options.output));
+    streams[streams.length - 1].write('[');
 
-    const log = Array(files.length).fill(0);
-    let isFirst = true;
+    this.pipe(streams, 0, {
+      options, 
+      lists,
+      log: Array(files.length).fill(0),
+      isFirst: true
+    });
+  },
 
-    files
-      .forEach((file, idx) => {
+  pipe: function(streams, idx, ctx) {
+    
+    let out = streams[streams.length - 1];
+    let pipeline = streams[idx].pipe(JSONStream.parse('*'));
 
-        const pipeline = fs
-          .createReadStream(path + file)
-          .pipe(JSONStream.parse('*'));
+    pipeline.on('data', (r) => {
+      
+      ctx.log[idx] += 1;
+      if (!ctx.options.silent) {
+        console.clear();
+        console.log(ctx.log.reduce((acc, val) => acc + val, 0));
+      }
 
-        pipeline.on('start', () => {
-          console.log("start")
-        });
-  
-        pipeline.on('data', (r) => {
-          log[idx] += 1;
-          if (!options.silent) {
-            console.clear();
-            console.log(log.reduce((acc, val) => acc + val, 0));
-          }
-  
-          if (r.success) {
-            r.labels = lists.map((l) => l.isLabeled(r));
+      if (r.success) {
+        r.labels = ctx.lists.map((l) => l.isLabeled(r));
 
-            if (!isFirst) {
-              writeStream.write(', ');
-            }
-            isFirst = false;
-            
-            writeStream.write(JSON.stringify(r));
-          }
-        });
-  
-        pipeline.on('end', () => {
-          if (idx === files.length - 1) {
-            writeStream.write(']');
-            writeStream.close();
-          }
-        });
-  
-      })
+        if (!ctx.isFirst) {
+          out.write(', ');
+        }
+        ctx.isFirst = false;
+        
+        out.write(JSON.stringify(r));
+      }
+
+    });
+    
+    if (idx < streams.length - 2) {
+      pipeline.on('end', () => this.pipe(streams, idx + 1, ctx));
+    }
+
+    if (idx === streams.length - 2) {
+      pipeline.on('end', () => out.write(']'));
+    }
   },
 
 }
